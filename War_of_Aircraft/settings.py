@@ -5,7 +5,7 @@ class Settings():
     def __init__(self):
 
         #屏幕设置
-        self.screen_width = 400
+        self.screen_width = 800
         self.screen_height = 600
         self.bg_color = (230,230,230)
 
@@ -14,6 +14,9 @@ class Settings():
         self.player_speed_left = 4
         self.player_speed_up = 4
         self.player_speed_down = 4
+
+        self.player_hp = 10
+        self.player_invincible = False
 
         #子弹设置
         self.bullet_speed = 4
