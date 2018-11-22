@@ -68,7 +68,7 @@ def update_enemys(screen, game_settings, enemys, player):
         player.center = float(screen_rect.centerx)
         player.bottom = float(screen_rect.bottom)
 
-def update_screen(game_settings, screen, player, bullets, enemys, button):
+def update_screen(game_settings, screen, player, bullets, enemys):
 
     # 绘制屏幕
     screen.fill((game_settings.bg_color))
@@ -81,7 +81,6 @@ def update_screen(game_settings, screen, player, bullets, enemys, button):
     for bullet in bullets.sprites():
         bullet.draw_bullet()
 
-    #button.draw_button()
 
     # 让最近绘制的屏幕可见
     pygame.display.flip()
