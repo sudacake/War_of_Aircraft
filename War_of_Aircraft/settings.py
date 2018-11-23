@@ -28,8 +28,8 @@ class Settings():
         self.enemy_num = 3
         self.enemy_speed = 1.5
 
-        #菜单中的按钮设置
-        self.botton_width = 200
+        #按钮设置
+        self.botton_width = 230
         self.botton_height = 75
         self.botton_color = (255, 0, 0)
         self.botton_text_color = (255, 255, 255)
